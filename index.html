@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MY TODO's</title>
+	</head>
+	<body>
+		<h1>MY TODO</h1>
+		<main>
+			<section class="inputs">
+				<fieldset>
+					<legend>Enter the details</legend>
+					<label for="title">Title</label>
+					<input type="text" name="title" id="title" />
+					<br />
+					<label for="desc">Description</label>
+					<input type="text" name="desc" id="desc" />
+					<br />
+					<button onclick="addTodo()" type="button">ADD</button>
+				</fieldset>
+			</section>
+			<section class="todolist">
+				<ul class="todoItems"></ul>
+			</section>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
